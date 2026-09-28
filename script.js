@@ -5,7 +5,26 @@ const sanPham = [
     { ten: 'iPad A16', loai: 'iPad', anh: 'ipad.png', gia: 9990000, mota: 'Máy tính bảng cho học online và giải trí hằng ngày.' },
     { ten: 'MacBook Air M4', loai: 'Mac', anh: 'macbook.jpeg', gia: 24990000, mota: 'Máy tính xách tay mỏng nhẹ, thuận tiện mang theo.' },
     { ten: 'Apple Watch SE 3', loai: 'Watch', anh: 'watch.jpeg', gia: 6490000, mota: 'Đồng hồ thông minh hỗ trợ theo dõi vận động.' },
-    { ten: 'AirPods 4', loai: 'Am thanh', anh: 'airpods.jpeg', gia: 3490000, mota: 'Tai nghe không dây dùng để nghe nhạc và gọi điện.' }
+    { ten: 'AirPods 4', loai: 'Am thanh', anh: 'airpods.jpeg', gia: 3490000, mota: 'Tai nghe không dây dùng để nghe nhạc và gọi điện.' },
+    {"ten":"iPhone 16 128GB","loai":"iPhone","anh":"san-pham-1.jpeg","gia":10990000,"mota":"Điện thoại Apple với nhiều lựa chọn phù hợp nhu cầu sử dụng."},
+    {"ten":"iPhone 16 Plus 128GB","loai":"iPhone","anh":"san-pham-2.jpeg","gia":11990000,"mota":"Điện thoại Apple với nhiều lựa chọn phù hợp nhu cầu sử dụng."},
+    {"ten":"iPhone 15 128GB","loai":"iPhone","anh":"san-pham-3.webp","gia":12990000,"mota":"Điện thoại Apple với nhiều lựa chọn phù hợp nhu cầu sử dụng."},
+    {"ten":"iPhone 16e 128GB","loai":"iPhone","anh":"san-pham-4.jpeg","gia":13990000,"mota":"Điện thoại Apple với nhiều lựa chọn phù hợp nhu cầu sử dụng."},
+    {"ten":"iPhone 15 Plus 128GB","loai":"iPhone","anh":"san-pham-5.jpeg","gia":14990000,"mota":"Điện thoại Apple với nhiều lựa chọn phù hợp nhu cầu sử dụng."},
+    {"ten":"iPhone 13 128GB","loai":"iPhone","anh":"san-pham-6.png","gia":15990000,"mota":"Điện thoại Apple với nhiều lựa chọn phù hợp nhu cầu sử dụng."},
+    {"ten":"iPhone 16 256GB","loai":"iPhone","anh":"san-pham-7.jpeg","gia":16990000,"mota":"Điện thoại Apple với nhiều lựa chọn phù hợp nhu cầu sử dụng."},
+    {"ten":"iPhone 16e 256GB","loai":"iPhone","anh":"san-pham-8.jpeg","gia":17990000,"mota":"Điện thoại Apple với nhiều lựa chọn phù hợp nhu cầu sử dụng."},
+    {"ten":"iPhone 16e 512GB","loai":"iPhone","anh":"san-pham-9.jpeg","gia":18990000,"mota":"Điện thoại Apple với nhiều lựa chọn phù hợp nhu cầu sử dụng."},
+    {"ten":"iPhone 14 Plus 128GB","loai":"iPhone","anh":"san-pham-10.png","gia":19990000,"mota":"Điện thoại Apple với nhiều lựa chọn phù hợp nhu cầu sử dụng."},
+    {"ten":"iPhone 14  128GB","loai":"iPhone","anh":"san-pham-11.png","gia":20990000,"mota":"Điện thoại Apple với nhiều lựa chọn phù hợp nhu cầu sử dụng."},
+    {"ten":"MacBook Neo 13 inch 256GB","loai":"Mac","anh":"san-pham-12.jpeg","gia":30490000,"mota":"Máy tính Apple dành cho học tập và làm việc."},
+    {"ten":"MacBook Neo 13 inch 512GB","loai":"Mac","anh":"san-pham-13.jpeg","gia":30990000,"mota":"Máy tính Apple dành cho học tập và làm việc."},
+    {"ten":"MacBook Air M5 13 inch 512GB","loai":"Mac","anh":"san-pham-14.jpeg","gia":31490000,"mota":"Máy tính Apple dành cho học tập và làm việc."},
+    {"ten":"MacBook Pro M5 Pro 14 inch","loai":"Mac","anh":"san-pham-15.jpeg","gia":31990000,"mota":"Máy tính Apple dành cho học tập và làm việc."},
+    {"ten":"Mac mini M6 256GB","loai":"Mac","anh":"san-pham-16.jpeg","gia":32490000,"mota":"Máy tính Apple dành cho học tập và làm việc."},
+    {"ten":"Mac mini M6 512GB","loai":"Mac","anh":"san-pham-17.jpeg","gia":32990000,"mota":"Máy tính Apple dành cho học tập và làm việc."},
+    {"ten":"iPad Air (M4) 11-inch Wi-Fi","loai":"iPad","anh":"san-pham-18.jpeg","gia":15990000,"mota":"Máy tính bảng cho đọc tài liệu, ghi chú và giải trí."},
+    {"ten":"iPad mini (A17 Pro) Wi-Fi 128GB","loai":"iPad","anh":"san-pham-19.jpeg","gia":15990000,"mota":"Máy tính bảng cho đọc tài liệu, ghi chú và giải trí."}
 ];
 let loaiDangChon = 'tat-ca';
 const oTimKiem = document.getElementById('tu-khoa');
